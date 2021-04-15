@@ -26,7 +26,7 @@ To get Started please follow the below Requirements
 [requirements](#requirements), you can follow these steps to get the project up and running:
 
 ```window
-$ git clone "https://github.com/karthick-krishnan/Viaplay-sample-task.git"
+$ git clone https://github.com/karthick-krishnan/Viaplay-sample-task.git
 $ npm install                   # Installs project dependencies
 $ npm start                     # Compiles and launches server
 $ npm test                      # Run server test cases
