@@ -1,0 +1,1 @@
+//config for qa environment
