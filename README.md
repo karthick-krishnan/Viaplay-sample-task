@@ -33,7 +33,7 @@ $ npm test                      # Run server test cases
 ```
 ## Server Application Structure
 ```
-├── cache                    # module which contains the cache details
+├── cache                    # module which contains the LRU caching functions
 ├── config                   # module which contains the config details
 ├── handlers                 # Main module which contains the business logics of the apis
 ├── routes                   # module which contains the application routing details
@@ -41,7 +41,11 @@ $ npm test                      # Run server test cases
 ├── utils                    # Application level utility methods/logics
 ├── validation               # Validation of the request
 ```
+## Caching Mechanism
+```
+Used LRU caching mechanism instead of Redis-cache since it needed a seperate environment to run
 
+```
 
 ## SERVICE TO GET THE TRAILERS FOR EACH MOVIE BY MOVIE LINK
 
@@ -49,7 +53,7 @@ $ npm test                      # Run server test cases
 
 - **::** <http://localhost:3000/viaplay/movies/trailer?link=https://content.viaplay.se/pc-se/film/arrival-2016>
 
-- URL: `viaplay/movie/trailer`
+- URL: `viaplay/movies/trailer`
 
 
 | Parameter  | Description             | Param Type| Required  |

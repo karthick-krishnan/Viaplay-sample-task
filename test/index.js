@@ -20,7 +20,7 @@ describe('unit Test cases for (+ve) getViaPlay link with trailers"', function ()
     })
 ;
 
-    it('204 - "NO CONTENT -"', function (done) {
+    it('204 - "NO CONTENT - without passing a different via play link"', function (done) {
         params.link = 'https://content.viaplay.se/pc-se/film/star-wars';
         moviesHandler.getTrailer(params, (err, resp) => {
             try {
