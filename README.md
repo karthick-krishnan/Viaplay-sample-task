@@ -1,4 +1,4 @@
-# Viaplay Task
+# Viaplay Sample Task
 
 ## Table of Contents
 
@@ -7,8 +7,8 @@
 3. [Getting Started](#getting-started)
 4. [Application Structure](#application-structure)
 5. [Server Application Structure](#server-application-structure)
-6. [SERVICE TO GET THE TRAILERS FOR EACH MOVIE BY MOVIE LINK](#service-get-trailer-movie-apis)
-7. [SERVICE TO GET THE TRAILERS FOR EACH MOVIE BY PUBLIC PATH OF A MOVIE](#service-get-trailer-movie-apis)
+6. [Service to get trailers for a movie by movie link](#service-get-trailer-movie-apis)
+7. [Service to get trailers for a movie by public path of a movie](#service-get-trailer-movie-apis)
 
 
 ## Purpose
@@ -26,7 +26,7 @@ To get Started please follow the below Requirements
 [requirements](#requirements), you can follow these steps to get the project up and running:
 
 ```window
-$ git clone "https://github.com/karthick-krishnan/Atlavik-task.git"
+$ git clone "https://github.com/karthick-krishnan/Viaplay-sample-task.git"
 $ npm install                   # Installs project dependencies
 $ npm start                     # Compiles and launches server
 $ npm test                      # Run server test cases
